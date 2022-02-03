@@ -1,4 +1,4 @@
-# SQL-Mystery-Generator
+# SQL_Mystery_Generator
 
 ##  Instructions
 
