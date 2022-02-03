@@ -15,6 +15,7 @@
   - There are inconsistencies in the data in order to make it add up
   
   - At least I can play
+  - Maybe I'll make a web version eventually.
 
 ## Usage
 
