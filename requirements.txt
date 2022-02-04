@@ -1,0 +1,6 @@
+dataclasses==0.8
+Faker==12.0.0
+faker-vehicle==0.2.0
+python-dateutil==2.8.2
+six==1.16.0
+typing_extensions==4.0.1
