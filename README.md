@@ -21,8 +21,6 @@ Try to access the story.db with your favorite DB tool.
 enjoy!
 
 
-
-
 ## Acknowledgments
 
 The Query Town Mystery was inspired by the [SQL Murder Mystery](http://mystery.knightlab.com/).
