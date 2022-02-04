@@ -1,3 +1,6 @@
+import sys
+sys.dont_write_bytecode = True
+
 from dataclasses import dataclass
 from faker import Faker
 from faker_vehicle import VehicleProvider
@@ -10,7 +13,7 @@ import sqlite3
 import util.data_gen as data_gen
 import util.csv_to_db as csv_to_db
 
-data_gen
+data_gen 
 csv_to_db
 
 fake = Faker()
@@ -157,6 +160,7 @@ conn.close()
 
 # 2nd story
 # true criminal info update female name,SQL Symphony Concert event ID : 1143 , income
+
 true_criminal = persons[3]
 true_criminal_rename = fake.name_female()
 true_criminal_income = 310000

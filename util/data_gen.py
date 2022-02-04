@@ -1,7 +1,10 @@
+import sys
+sys.dont_write_bytecode = True
+
 from collections import OrderedDict
 from faker import Faker
 from faker_vehicle import VehicleProvider
-import random
+
 # random.seed(0) # test code
 fake = Faker()
 
@@ -9,8 +12,6 @@ fake = Faker()
 from datetime import datetime
 import os
 import csv
-
-
 
 csv_path = "./CSV/"
 if not os.path.exists(csv_path):
@@ -151,6 +152,7 @@ with open(csv_path+'get_fit_now_check_in.csv', 'w') as csvfile:
         line = get_now_check()
         line.insert(0,r[0])
         writer.writerow(line)
+    file.close()
 
 # facebook_event_checkin
 def get_facebook_event_checkin():

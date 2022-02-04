@@ -1,8 +1,9 @@
+import sys
+sys.dont_write_bytecode = True
+
 import csv
 import sqlite3
 import os
-
-# import data_gen
 
 def person():
     # query for create table
